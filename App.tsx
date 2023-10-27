@@ -14,7 +14,7 @@ function App(): JSX.Element {
   return (
     <View>
       <View>
-        <Text>hello world</Text>
+        <Text>hello SST</Text>
       </View>
     </View>
   );
