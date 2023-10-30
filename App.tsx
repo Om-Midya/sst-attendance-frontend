@@ -7,17 +7,23 @@
  */
 
 import React from 'react';
-import {Text, View} from 'react-native';
+import {Image, SafeAreaView, StyleSheet, View} from 'react-native';
 
+import SignInScreen from './src/screens/SignInScreen';
 
 function App(): JSX.Element {
   return (
-    <View>
-      <View>
-        <Text>hello world</Text>
-      </View>
-    </View>
+    <SafeAreaView style={styles.root}>
+      <SignInScreen />
+    </SafeAreaView>
   );
 }
+
+const styles = StyleSheet.create({
+  root: {
+    flex: 1,
+    backgroundColor: '#f9fbfc',
+  }
+});
 
 export default App;
