@@ -13,9 +13,17 @@ import SignInScreen from './src/screens/SignInScreen';
 
 function App(): JSX.Element {
   return (
+<<<<<<< HEAD
     <SafeAreaView style={styles.root}>
       <SignInScreen />
     </SafeAreaView>
+=======
+    <View>
+      <View>
+        <Text>hello SST</Text>
+      </View>
+    </View>
+>>>>>>> 885bca90b2b144b9e364efeb849b7568c69f80ea
   );
 }
 
